@@ -1,0 +1,37 @@
+name: Carthage
+targets:
+  carthage:
+    type: application
+    platform: macOS
+    settings:
+      MACOSX_DEPLOYMENT_TARGET: '10.10'
+    sources: Source/carthage
+    dependencies:
+      - target: CarthageKit
+      - carthage: Commandant
+      - carthage: Curry
+      - carthage: PrettyColors
+  CarthageKit:
+    type: framework
+    platform: macOS
+    settings:
+      INFOPLIST_FILE: plist/Info.plist
+      MACOSX_DEPLOYMENT_TARGET: '10.10'
+    sources: Source/CarthageKit
+    dependencies:
+      - target: XCDBLD
+      - carthage: Curry
+      - carthage: Tentacle
+      - carthage: Result
+  XCDBLD:
+    type: framework
+    platform: macOS
+    settings:
+      INFOPLIST_FILE: plist/Info.plist
+      MACOSX_DEPLOYMENT_TARGET: '10.10'
+    sources: Source/XCDBLD
+    dependencies:
+      - carthage: ReactiveSwift
+      - carthage: ReactiveTask
+      - carthage: Result
+  

@@ -1,5 +1,6 @@
 github "Carthage/Commandant" "0.17.0"
 github "ReactiveCocoa/ReactiveSwift" "6.1.0"
+github "antitypical/Result" "5.0.0"
 github "muizidn/PrettyColors" "b8bb13c52e4b90e5f308a04d48a60abbb27857b7"
 github "muizidn/ReactiveTask" "7952d9208b4305affd39e3ddc8ab608d916a8103"
 github "muizidn/Tentacle" "46b766a3db467e1560709471ad5a8271fbb9c708"

@@ -1,6 +1,7 @@
-github "Carthage/Commandant" >= 0.16.0
+github "Carthage/Commandant" ~> 0.17.0
 github "thoughtbot/Curry" "v4.0.2"
 github "muizidn/PrettyColors" "master"
 github "ReactiveCocoa/ReactiveSwift" ~> 6.1.0
 github "muizidn/ReactiveTask" "master"
 github "muizidn/Tentacle" "master"
+github "antitypical/Result" ~> 5.0.0
